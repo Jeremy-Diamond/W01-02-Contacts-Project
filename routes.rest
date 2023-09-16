@@ -1,0 +1,27 @@
+//local host
+
+### hello world test
+GET http://localhost:3000
+
+
+
+### Get all contacts
+GET http://localhost:3000/contacts
+
+### Get a contact
+GET http://localhost:3000/contacts/65053ef6e2a02fe6356f4e1d
+
+
+//production
+
+### hello world test
+GET https://project-1-z33c.onrender.com
+
+### Get all contacts
+GET https://project-1-z33c.onrender.com/contacts
+
+### Get a contact
+GET https://project-1-z33c.onrender.com/contacts/65053ef6e2a02fe6356f4e1d
+
+
+
