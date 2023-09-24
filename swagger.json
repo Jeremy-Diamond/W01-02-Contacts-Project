@@ -7,20 +7,8 @@
   },
   "host": "localhost:3000",
   "basePath": "/",
-  "tags": [
-    {
-      "name": "Contacts",
-      "description": "API for contacts in the system"
-    }
-  ],
   "schemes": [
     "http"
-  ],
-  "consumes": [
-    "application/json"
-  ],
-  "produces": [
-    "application/json"
   ],
   "paths": {
     "/": {
@@ -153,33 +141,6 @@
           "default": {
             "description": ""
           }
-        }
-      }
-    }
-  },
-  "definitions": {
-    "Contact": {
-      "type": "object",
-      "properties": {
-        "firstName": {
-          "type": "string",
-          "example": "FFEG"
-        },
-        "lastName": {
-          "type": "string",
-          "example": "Diamond"
-        },
-        "email": {
-          "type": "string",
-          "example": "jeffd@email.com"
-        },
-        "birthday": {
-          "type": "string",
-          "example": "1984-01-23"
-        },
-        "favoriteColor": {
-          "type": "string",
-          "example": "Blue"
         }
       }
     }
