@@ -7,7 +7,7 @@
   },
   "host": "project-1-z33c.onrender.com",
   "basePath": "/",
-  "schemes": ["http"],
+  "schemes": ["https"],
   "paths": {
     "/": {
       "get": {
