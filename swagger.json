@@ -5,7 +5,7 @@
     "description": "This is the API for my CIT341 Project",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "project-1-z33c.onrender.com",
   "basePath": "/",
   "schemes": ["http"],
   "paths": {
